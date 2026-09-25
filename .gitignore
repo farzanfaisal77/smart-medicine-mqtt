@@ -1,0 +1,27 @@
+# Flutter / Dart cache & build output
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# SQLite Databases & Local Logs
+*.db
+*.sqlite
+smart_medicine.db
+*.log
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Private Local Hardware Files (Credentials)
+espcode_sketch/espcode_sketch.ino
+
+# Local environment & IDE settings
+android/local.properties
+.idea/
+.vscode/
+*.swp
+.DS_Store

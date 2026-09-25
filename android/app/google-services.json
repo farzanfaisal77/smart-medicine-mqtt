@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5681896172",
+    "project_id": "smart-medicine-organizer",
+    "storage_bucket": "smart-medicine-organizer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5681896172:android:77694c2fb029d2f5c863c9",
+        "android_client_info": {
+          "package_name": "com.example.smart_medicine_organizer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAvzjxGSfPCMK3Pk_qknd-F3DdZfLXQAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
