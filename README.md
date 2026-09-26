@@ -8,6 +8,8 @@ This repository replaces third-party cloud backends (e.g. Firebase) with a self-
 
 ## Architecture Overview
 
+See [ARCHITECTURE.md](ARCHITECTURE.md) for full architectural specifications, Mermaid sequence diagrams, and MQTT topic payloads.
+
 ```
  ┌──────────────────────────┐                 ┌──────────────────────────┐
  │    Flutter Mobile App    │                 │   ESP32 Microcontroller  │
@@ -61,6 +63,7 @@ See [WIRING.md](WIRING.md) for complete hardware pin assignments for the 1-compa
 ├── espcode_sketch/          # ESP32 Arduino Sketch
 │   └── espcode_sample.ino   # Public ESP32 sketch template (safe credentials)
 ├── pi_server.py             # Raspberry Pi Central Edge Server (Flask + SQLite + MQTT)
+├── ARCHITECTURE.md          # Comprehensive System Architecture Specification
 ├── WIRING.md                # Dedicated hardware pinout documentation
 └── pubspec.yaml             # Flutter dependencies
 ```
